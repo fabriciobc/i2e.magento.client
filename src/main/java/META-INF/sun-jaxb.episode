@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.10.09 às 02:28:57 AM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="urn:Magento" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="br.com.i2e.magento.client.ws.model"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:callParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CallParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:callResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CallResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:multiCallParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.MultiCallParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:multiCallResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.MultiCallResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:endSessionParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.EndSessionParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:endSessionResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.EndSessionResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:loginParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.LoginParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:loginResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.LoginResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:resourcesRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ResourcesRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:resourcesResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ResourcesResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfApis">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfApis"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:globalFaultsParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GlobalFaultsParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:globalFaultsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GlobalFaultsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfExistsFaltures">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfExistsFaltures"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:resourceFaultsParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ResourceFaultsParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:resourceFaultsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ResourceFaultsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:startSessionResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.StartSessionResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:directoryCountryListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryCountryListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:directoryCountryListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryCountryListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:directoryCountryEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryCountryEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:directoryRegionListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryRegionListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:directoryRegionListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryRegionListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:directoryRegionEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryRegionEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:filters">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.Filters"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerCustomerEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerCustomerEntityToCreate">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerEntityToCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfString">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfString"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerCustomerEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerDeleteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerDeleteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerCustomerDeleteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerCustomerDeleteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerGroupListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerGroupListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerGroupListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerGroupListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerGroupEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerGroupEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerAddressEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerAddressEntityCreate">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressEntityCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerAddressEntityItem">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressEntityItem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressDeleteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressDeleteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:customerAddressDeleteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerAddressDeleteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductCurrentStoreRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductCurrentStoreRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductCurrentStoreResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductCurrentStoreResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductRequestAttributes">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductRequestAttributes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductReturnEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductReturnEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductCreateEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductCreateEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductSetSpecialPriceRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductSetSpecialPriceRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductSetSpecialPriceResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductSetSpecialPriceResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductGetSpecialPriceRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductGetSpecialPriceRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductGetSpecialPriceResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductGetSpecialPriceResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductDeleteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductDeleteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductDeleteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductDeleteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeCurrentStoreRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeCurrentStoreRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeCurrentStoreResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeCurrentStoreResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAttributeEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAttributeEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeOptionsRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeOptionsRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeOptionsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeOptionsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAttributeOptionEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAttributeOptionEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeSetListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeSetListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeSetListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeSetListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductAttributeSetEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeSetEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductTypeListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTypeListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductTypeListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTypeListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductTypeEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTypeEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeTierPriceInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeTierPriceInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeTierPriceInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeTierPriceInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductTierPriceEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTierPriceEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeTierPriceUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeTierPriceUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeTierPriceUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeTierPriceUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaCurrentStoreRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaCurrentStoreRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaCurrentStoreResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaCurrentStoreResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductImageEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductImageEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductImageEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductImageEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaTypesRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaTypesRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaTypesResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaTypesResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductAttributeMediaTypeEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaTypeEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductAttributeMediaCreateEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaCreateEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaRemoveRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaRemoveRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductAttributeMediaRemoveResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaRemoveResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductLinkEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkAssignRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAssignRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductLinkEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkAssignResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAssignResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkRemoveRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkRemoveRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkRemoveResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkRemoveResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkTypesRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkTypesRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkTypesResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkTypesResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkAttributesRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAttributesRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogProductLinkAttributesResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAttributesResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductLinkAttributeEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAttributeEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryCurrentStoreRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryCurrentStoreRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryCurrentStoreResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryCurrentStoreResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryTreeRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryTreeRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryTreeResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryTreeResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogCategoryTree">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryTree"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryLevelRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryLevelRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryLevelResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryLevelResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfCatalogCategoryEntitiesNoChildren">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfCatalogCategoryEntitiesNoChildren"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogCategoryInfo">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogCategoryEntityCreate">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryEntityCreate"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryMoveRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryMoveRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryMoveResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryMoveResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryDeleteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryDeleteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryDeleteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryDeleteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAssignedProductsRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAssignedProductsRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAssignedProductsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAssignedProductsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAssignedProductArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAssignedProductArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAssignProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAssignProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAssignProductResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAssignProductResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryUpdateProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryUpdateProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryUpdateProductResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryUpdateProductResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryRemoveProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryRemoveProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryRemoveProductResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryRemoveProductResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeOptionsRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeOptionsRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeOptionsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeOptionsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeCurrentStoreRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeCurrentStoreRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogCategoryAttributeCurrentStoreResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryAttributeCurrentStoreResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderListEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderListEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderAddCommentRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderAddCommentRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderAddCommentResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderAddCommentResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderHoldRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderHoldRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderHoldResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderHoldResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderUnholdRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderUnholdRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderUnholdResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderUnholdResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderCancelRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderCancelRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderCancelResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderCancelResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:orderItemIdQtyArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.OrderItemIdQtyArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentAddTrackRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentAddTrackRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentAddTrackResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentAddTrackResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentRemoveTrackRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentRemoveTrackRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentRemoveTrackResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentRemoveTrackResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentAddCommentRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentAddCommentRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentAddCommentResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentAddCommentResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentGetCarriersRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentGetCarriersRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderShipmentGetCarriersResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentGetCarriersResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:associativeArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.AssociativeArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceAddCommentRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceAddCommentRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceAddCommentResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceAddCommentResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCaptureRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCaptureRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCaptureResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCaptureResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceVoidRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceVoidRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceVoidResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceVoidResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCancelRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCancelRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:salesOrderInvoiceCancelResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCancelResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogInventoryStockItemListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogInventoryStockItemListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogInventoryStockItemEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogInventoryStockItemUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogInventoryStockItemUpdateEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemUpdateEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:catalogInventoryStockItemUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCreateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCreateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartOrderRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartOrderRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartOrderResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartOrderResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartInfoResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartInfoResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartInfoEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartInfoEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartTotalsRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartTotalsRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartTotalsResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartTotalsResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartTotalsEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartTotalsEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartLicenseRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartLicenseRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartLicenseResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartLicenseResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartLicenseEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartLicenseEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductAddRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductAddRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartProductEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductAddResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductAddResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductUpdateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductUpdateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductUpdateResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductUpdateResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductRemoveRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductRemoveRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductRemoveResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductRemoveResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartProductResponseEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductResponseEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductMoveToCustomerQuoteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductMoveToCustomerQuoteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartProductMoveToCustomerQuoteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductMoveToCustomerQuoteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCustomerSetRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerSetRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartCustomerEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCustomerSetResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerSetResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCustomerAddressesRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerAddressesRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartCustomerAddressEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerAddressEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCustomerAddressesResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerAddressesResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartShippingMethodRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingMethodRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartShippingMethodResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingMethodResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartShippingListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartShippingListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartShippingMethodEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingMethodEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartPaymentMethodRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentMethodRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartPaymentMethodEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentMethodEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartPaymentMethodResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentMethodResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartPaymentListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartPaymentListResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentListResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartPaymentMethodResponseEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentMethodResponseEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCouponAddRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCouponAddRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCouponAddResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCouponAddResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCouponRemoveRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCouponRemoveRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:shoppingCartCouponRemoveResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCouponRemoveResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:giftMessageEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:giftMessageResponse">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteItemRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteItemRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteItemResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteItemResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:giftMessageAssociativeProductsEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageAssociativeProductsEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:giftMessageForQuoteProductResponseParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageForQuoteProductResponseParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:giftMessageResponseArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageResponseArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoListRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoListRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoInfoRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoInfoRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoCreateRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoCreateRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoEditRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoEditRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoDeleteRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoDeleteRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoAddProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoAddProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:compreJuntoRemoveProductRequestParam">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CompreJuntoRemoveProductRequestParam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:associativeEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.AssociativeEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:complexFilter">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ComplexFilter"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:complexFilterArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ComplexFilterArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfInt">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfInt"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:apiMethodEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ApiMethodEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfApiMethods">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfApiMethods"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:apiEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ApiEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:existsFaltureEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ExistsFaltureEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:directoryCountryEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryCountryEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:directoryRegionEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.DirectoryRegionEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:customerGroupEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CustomerGroupEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductAttributeSetEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeSetEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductTypeEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTypeEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductTierPriceEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductTierPriceEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfCatalogCategoryEntities">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ArrayOfCatalogCategoryEntities"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogCategoryEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogCategoryEntityNoChildren">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogCategoryEntityNoChildren"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAssignedProduct">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAssignedProduct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAttributeEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAttributeEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogAttributeOptionEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogAttributeOptionEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductAttributeMediaTypeEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductAttributeMediaTypeEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductImageFileEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductImageFileEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogProductLinkAttributeEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogProductLinkAttributeEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderListEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderListEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderAddressEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderAddressEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderItemEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderItemEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderItemEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderItemEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:orderItemIdQty">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.OrderItemIdQty"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderPaymentEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderPaymentEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderStatusHistoryEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderStatusHistoryEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderStatusHistoryEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderStatusHistoryEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentCommentEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentCommentEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentCommentEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentCommentEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentTrackEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentTrackEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentTrackEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentTrackEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentItemEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentItemEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderShipmentItemEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderShipmentItemEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceItemEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceItemEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceItemEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceItemEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceCommentEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCommentEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:salesOrderInvoiceCommentEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.SalesOrderInvoiceCommentEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:catalogInventoryStockItemEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.CatalogInventoryStockItemEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartAddressEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartAddressEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartItemEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartItemEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartItemEntityArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartItemEntityArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartPaymentEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartPaymentEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartTotalsEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartTotalsEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartLicenseEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartLicenseEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartProductEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartProductEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartCustomerAddressEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartCustomerAddressEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:shoppingCartShippingMethodEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ShoppingCartShippingMethodEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:giftMessageAssociativeProductsEntity">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.GiftMessageAssociativeProductsEntity"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:comprejunto">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.Comprejunto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:comprejuntoArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ComprejuntoArray"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:comprejuntoProduct">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ComprejuntoProduct"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:comprejuntoProductArray">
+                  
+            <class ref="br.com.i2e.magento.client.ws.model.ComprejuntoProductArray"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
